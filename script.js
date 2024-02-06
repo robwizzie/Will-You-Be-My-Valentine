@@ -80,10 +80,6 @@ const songTitleElement = document.getElementById('songTitle');
 // Set the initial song title
 songTitleElement.textContent = songs[currentSongIndex].title;
 
-// Play the first song automatically
-audio.autoplay = true;
-updatePlayPauseButton(true); // Assuming music starts playing, show the pause button
-
 function togglePlayPause() {
     if (audio.paused) {
         audio.play();
