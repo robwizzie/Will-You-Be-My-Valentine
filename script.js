@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-function updateCountdown() {
+/* function updateCountdown() {
     const now = new Date();
     const targetDate = new Date(now.getFullYear(), 8, 1); // Month is 0-indexed, 8 = September
     const difference = targetDate - now;
@@ -63,7 +63,7 @@ function updateCountdown() {
         // If the countdown is over
         document.querySelector('.countdown').innerHTML = "The countdown is over!";
     }
-}
+} */
 
 const songs = [
     { url: '/music/apocalypse.mp3', title: 'Apocalypse' },
@@ -157,4 +157,4 @@ document.getElementById('noButton').addEventListener('click', function() {
 });
 
 // Update the countdown every second
-setInterval(updateCountdown, 1000);
+//setInterval(updateCountdown, 1000);
